@@ -1,4 +1,4 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/es5/util/co`lors'
 
 export default {
   mode: 'universal',
@@ -62,7 +62,8 @@ export default {
           success: colors.green.accent3
         }
       }
-    }
+    },
+    optionsPath: './vuetify.options.js'
   },
   /*
   ** Build configuration
