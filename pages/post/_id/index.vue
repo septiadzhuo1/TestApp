@@ -18,13 +18,14 @@
 </template>
 
 <script lang="ts">
+import Vue, { PropOptions } from 'vue'
 import axios from "axios";
 import PageLoad from "~/components/PageLoad.vue";
 
-export default ({
+export default Vue.extend ({
     data() {
         return {
-            post: [],
+            post: <any>[],
             loading:true
         };
     },

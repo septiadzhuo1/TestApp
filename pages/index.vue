@@ -19,12 +19,13 @@
 
 <script lang='ts'>
 
+import Vue, { PropOptions } from 'vue'
 import Posts from '~/components/Posts.vue'
 import PageLoad from "~/components/PageLoad.vue";
 import axios from "axios";
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
-export default {
+export default Vue.extend({
   data() {
     return {
       posts: [],
@@ -49,5 +50,5 @@ export default {
       console.log(err);
     }
   }
-}
+})
 </script>

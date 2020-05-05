@@ -30,7 +30,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 export default {
     props:['post'],
     filters: {
-        truncate(string:string, value:Number) {
+        truncate(string:string, value:number) {
             return string.substring(0, value) + '…';
         }
     }
