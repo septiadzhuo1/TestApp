@@ -16,6 +16,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  vuetify: {
+    optionsPath: './vuetify.options.js'
+  },
   /*
   ** Customize the progress-bar color
   */
@@ -48,10 +51,7 @@ export default {
   */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: true,
-      
-    },
+
     optionsPath: './vuetify.options.js'
   },
   /*
