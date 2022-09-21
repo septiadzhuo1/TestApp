@@ -17,7 +17,7 @@
     "bootstrap-vue": "^2.13.0",
     "nuxt": "^2.0.0",
     "vue": "^2.6.11",
-    "vuetify": "^2.2.26"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.6",
